@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Complication - Time Stamp WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Glance - Time Stamp WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Notification - Time Stamp WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Time Stamp WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Time Stamp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C1F0A56B1C49DD74005AFC5E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C1F0A57F1C49DD75005AFC5E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C1F0A58A1C49DD75005AFC5E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C1F0A5931C49DD75005AFC5E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

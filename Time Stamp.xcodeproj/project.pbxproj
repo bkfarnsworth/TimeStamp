@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1F0A5701C49DD74005AFC5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A56F1C49DD74005AFC5E /* AppDelegate.swift */; };
+		C1F0A5721C49DD75005AFC5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A5711C49DD75005AFC5E /* ViewController.swift */; };
+		C1F0A5751C49DD75005AFC5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A5731C49DD75005AFC5E /* Main.storyboard */; };
+		C1F0A5771C49DD75005AFC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A5761C49DD75005AFC5E /* Assets.xcassets */; };
+		C1F0A57A1C49DD75005AFC5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A5781C49DD75005AFC5E /* LaunchScreen.storyboard */; };
+		C1F0A5851C49DD75005AFC5E /* Time_StampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A5841C49DD75005AFC5E /* Time_StampTests.swift */; };
+		C1F0A5901C49DD75005AFC5E /* Time_StampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A58F1C49DD75005AFC5E /* Time_StampUITests.swift */; };
+		C1F0A5951C49DD75005AFC5E /* Time Stamp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C1F0A5941C49DD75005AFC5E /* Time Stamp WatchKit App.app */; };
+		C1F0A59B1C49DD75005AFC5E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A5991C49DD75005AFC5E /* Interface.storyboard */; };
+		C1F0A59D1C49DD75005AFC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A59C1C49DD75005AFC5E /* Assets.xcassets */; };
+		C1F0A5A41C49DD75005AFC5E /* Time Stamp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C1F0A5A31C49DD75005AFC5E /* Time Stamp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C1F0A5AB1C49DD75005AFC5E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A5AA1C49DD75005AFC5E /* InterfaceController.swift */; };
+		C1F0A5AD1C49DD75005AFC5E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A5AC1C49DD75005AFC5E /* ExtensionDelegate.swift */; };
+		C1F0A5AF1C49DD75005AFC5E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A5AE1C49DD75005AFC5E /* NotificationController.swift */; };
+		C1F0A5B11C49DD75005AFC5E /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A5B01C49DD75005AFC5E /* GlanceController.swift */; };
+		C1F0A5B31C49DD75005AFC5E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A5B21C49DD75005AFC5E /* ComplicationController.swift */; };
+		C1F0A5B51C49DD75005AFC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A5B41C49DD75005AFC5E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1F0A5811C49DD75005AFC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1F0A5641C49DD74005AFC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1F0A56B1C49DD74005AFC5E;
+			remoteInfo = "Time Stamp";
+		};
+		C1F0A58C1C49DD75005AFC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1F0A5641C49DD74005AFC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1F0A56B1C49DD74005AFC5E;
+			remoteInfo = "Time Stamp";
+		};
+		C1F0A5961C49DD75005AFC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1F0A5641C49DD74005AFC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1F0A5931C49DD75005AFC5E;
+			remoteInfo = "Time Stamp WatchKit App";
+		};
+		C1F0A5A51C49DD75005AFC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1F0A5641C49DD74005AFC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1F0A5A21C49DD75005AFC5E;
+			remoteInfo = "Time Stamp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1F0A5BC1C49DD75005AFC5E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C1F0A5A41C49DD75005AFC5E /* Time Stamp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F0A5C01C49DD75005AFC5E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C1F0A5951C49DD75005AFC5E /* Time Stamp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1F0A56C1C49DD74005AFC5E /* Time Stamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Stamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F0A56F1C49DD74005AFC5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1F0A5711C49DD75005AFC5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1F0A5741C49DD75005AFC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1F0A5761C49DD75005AFC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1F0A5791C49DD75005AFC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1F0A57B1C49DD75005AFC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F0A5801C49DD75005AFC5E /* Time StampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time StampTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F0A5841C49DD75005AFC5E /* Time_StampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_StampTests.swift; sourceTree = "<group>"; };
+		C1F0A5861C49DD75005AFC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F0A58B1C49DD75005AFC5E /* Time StampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time StampUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F0A58F1C49DD75005AFC5E /* Time_StampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_StampUITests.swift; sourceTree = "<group>"; };
+		C1F0A5911C49DD75005AFC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F0A5941C49DD75005AFC5E /* Time Stamp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Stamp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F0A59A1C49DD75005AFC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C1F0A59C1C49DD75005AFC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1F0A59E1C49DD75005AFC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F0A5A31C49DD75005AFC5E /* Time Stamp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Time Stamp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F0A5A91C49DD75005AFC5E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C1F0A5AA1C49DD75005AFC5E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C1F0A5AC1C49DD75005AFC5E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C1F0A5AE1C49DD75005AFC5E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C1F0A5B01C49DD75005AFC5E /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		C1F0A5B21C49DD75005AFC5E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C1F0A5B41C49DD75005AFC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1F0A5B61C49DD75005AFC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1F0A5691C49DD74005AFC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F0A57D1C49DD75005AFC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F0A5881C49DD75005AFC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F0A5A01C49DD75005AFC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1F0A5631C49DD74005AFC5E = {
+			isa = PBXGroup;
+			children = (
+				C1F0A56E1C49DD74005AFC5E /* Time Stamp */,
+				C1F0A5831C49DD75005AFC5E /* Time StampTests */,
+				C1F0A58E1C49DD75005AFC5E /* Time StampUITests */,
+				C1F0A5981C49DD75005AFC5E /* Time Stamp WatchKit App */,
+				C1F0A5A71C49DD75005AFC5E /* Time Stamp WatchKit Extension */,
+				C1F0A56D1C49DD74005AFC5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1F0A56D1C49DD74005AFC5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A56C1C49DD74005AFC5E /* Time Stamp.app */,
+				C1F0A5801C49DD75005AFC5E /* Time StampTests.xctest */,
+				C1F0A58B1C49DD75005AFC5E /* Time StampUITests.xctest */,
+				C1F0A5941C49DD75005AFC5E /* Time Stamp WatchKit App.app */,
+				C1F0A5A31C49DD75005AFC5E /* Time Stamp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1F0A56E1C49DD74005AFC5E /* Time Stamp */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A56F1C49DD74005AFC5E /* AppDelegate.swift */,
+				C1F0A5711C49DD75005AFC5E /* ViewController.swift */,
+				C1F0A5731C49DD75005AFC5E /* Main.storyboard */,
+				C1F0A5761C49DD75005AFC5E /* Assets.xcassets */,
+				C1F0A5781C49DD75005AFC5E /* LaunchScreen.storyboard */,
+				C1F0A57B1C49DD75005AFC5E /* Info.plist */,
+			);
+			path = "Time Stamp";
+			sourceTree = "<group>";
+		};
+		C1F0A5831C49DD75005AFC5E /* Time StampTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A5841C49DD75005AFC5E /* Time_StampTests.swift */,
+				C1F0A5861C49DD75005AFC5E /* Info.plist */,
+			);
+			path = "Time StampTests";
+			sourceTree = "<group>";
+		};
+		C1F0A58E1C49DD75005AFC5E /* Time StampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A58F1C49DD75005AFC5E /* Time_StampUITests.swift */,
+				C1F0A5911C49DD75005AFC5E /* Info.plist */,
+			);
+			path = "Time StampUITests";
+			sourceTree = "<group>";
+		};
+		C1F0A5981C49DD75005AFC5E /* Time Stamp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A5991C49DD75005AFC5E /* Interface.storyboard */,
+				C1F0A59C1C49DD75005AFC5E /* Assets.xcassets */,
+				C1F0A59E1C49DD75005AFC5E /* Info.plist */,
+			);
+			path = "Time Stamp WatchKit App";
+			sourceTree = "<group>";
+		};
+		C1F0A5A71C49DD75005AFC5E /* Time Stamp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A5AA1C49DD75005AFC5E /* InterfaceController.swift */,
+				C1F0A5AC1C49DD75005AFC5E /* ExtensionDelegate.swift */,
+				C1F0A5AE1C49DD75005AFC5E /* NotificationController.swift */,
+				C1F0A5B01C49DD75005AFC5E /* GlanceController.swift */,
+				C1F0A5B21C49DD75005AFC5E /* ComplicationController.swift */,
+				C1F0A5B41C49DD75005AFC5E /* Assets.xcassets */,
+				C1F0A5B61C49DD75005AFC5E /* Info.plist */,
+				C1F0A5A81C49DD75005AFC5E /* Supporting Files */,
+			);
+			path = "Time Stamp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C1F0A5A81C49DD75005AFC5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A5A91C49DD75005AFC5E /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1F0A56B1C49DD74005AFC5E /* Time Stamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F0A5C11C49DD75005AFC5E /* Build configuration list for PBXNativeTarget "Time Stamp" */;
+			buildPhases = (
+				C1F0A5681C49DD74005AFC5E /* Sources */,
+				C1F0A5691C49DD74005AFC5E /* Frameworks */,
+				C1F0A56A1C49DD74005AFC5E /* Resources */,
+				C1F0A5C01C49DD75005AFC5E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1F0A5971C49DD75005AFC5E /* PBXTargetDependency */,
+			);
+			name = "Time Stamp";
+			productName = "Time Stamp";
+			productReference = C1F0A56C1C49DD74005AFC5E /* Time Stamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1F0A57F1C49DD75005AFC5E /* Time StampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F0A5C41C49DD75005AFC5E /* Build configuration list for PBXNativeTarget "Time StampTests" */;
+			buildPhases = (
+				C1F0A57C1C49DD75005AFC5E /* Sources */,
+				C1F0A57D1C49DD75005AFC5E /* Frameworks */,
+				C1F0A57E1C49DD75005AFC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1F0A5821C49DD75005AFC5E /* PBXTargetDependency */,
+			);
+			name = "Time StampTests";
+			productName = "Time StampTests";
+			productReference = C1F0A5801C49DD75005AFC5E /* Time StampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1F0A58A1C49DD75005AFC5E /* Time StampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F0A5C71C49DD75005AFC5E /* Build configuration list for PBXNativeTarget "Time StampUITests" */;
+			buildPhases = (
+				C1F0A5871C49DD75005AFC5E /* Sources */,
+				C1F0A5881C49DD75005AFC5E /* Frameworks */,
+				C1F0A5891C49DD75005AFC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1F0A58D1C49DD75005AFC5E /* PBXTargetDependency */,
+			);
+			name = "Time StampUITests";
+			productName = "Time StampUITests";
+			productReference = C1F0A58B1C49DD75005AFC5E /* Time StampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C1F0A5931C49DD75005AFC5E /* Time Stamp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F0A5BD1C49DD75005AFC5E /* Build configuration list for PBXNativeTarget "Time Stamp WatchKit App" */;
+			buildPhases = (
+				C1F0A5921C49DD75005AFC5E /* Resources */,
+				C1F0A5BC1C49DD75005AFC5E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1F0A5A61C49DD75005AFC5E /* PBXTargetDependency */,
+			);
+			name = "Time Stamp WatchKit App";
+			productName = "Time Stamp WatchKit App";
+			productReference = C1F0A5941C49DD75005AFC5E /* Time Stamp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C1F0A5A21C49DD75005AFC5E /* Time Stamp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F0A5B91C49DD75005AFC5E /* Build configuration list for PBXNativeTarget "Time Stamp WatchKit Extension" */;
+			buildPhases = (
+				C1F0A59F1C49DD75005AFC5E /* Sources */,
+				C1F0A5A01C49DD75005AFC5E /* Frameworks */,
+				C1F0A5A11C49DD75005AFC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Stamp WatchKit Extension";
+			productName = "Time Stamp WatchKit Extension";
+			productReference = C1F0A5A31C49DD75005AFC5E /* Time Stamp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1F0A5641C49DD74005AFC5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Brian Farnsworth";
+				TargetAttributes = {
+					C1F0A56B1C49DD74005AFC5E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5WXBG4MSTC;
+					};
+					C1F0A57F1C49DD75005AFC5E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5WXBG4MSTC;
+						TestTargetID = C1F0A56B1C49DD74005AFC5E;
+					};
+					C1F0A58A1C49DD75005AFC5E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5WXBG4MSTC;
+						TestTargetID = C1F0A56B1C49DD74005AFC5E;
+					};
+					C1F0A5931C49DD75005AFC5E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5WXBG4MSTC;
+					};
+					C1F0A5A21C49DD75005AFC5E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5WXBG4MSTC;
+					};
+				};
+			};
+			buildConfigurationList = C1F0A5671C49DD74005AFC5E /* Build configuration list for PBXProject "Time Stamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1F0A5631C49DD74005AFC5E;
+			productRefGroup = C1F0A56D1C49DD74005AFC5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1F0A56B1C49DD74005AFC5E /* Time Stamp */,
+				C1F0A57F1C49DD75005AFC5E /* Time StampTests */,
+				C1F0A58A1C49DD75005AFC5E /* Time StampUITests */,
+				C1F0A5931C49DD75005AFC5E /* Time Stamp WatchKit App */,
+				C1F0A5A21C49DD75005AFC5E /* Time Stamp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1F0A56A1C49DD74005AFC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0A57A1C49DD75005AFC5E /* LaunchScreen.storyboard in Resources */,
+				C1F0A5771C49DD75005AFC5E /* Assets.xcassets in Resources */,
+				C1F0A5751C49DD75005AFC5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F0A57E1C49DD75005AFC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F0A5891C49DD75005AFC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F0A5921C49DD75005AFC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0A59D1C49DD75005AFC5E /* Assets.xcassets in Resources */,
+				C1F0A59B1C49DD75005AFC5E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F0A5A11C49DD75005AFC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0A5B51C49DD75005AFC5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1F0A5681C49DD74005AFC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0A5721C49DD75005AFC5E /* ViewController.swift in Sources */,
+				C1F0A5701C49DD74005AFC5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F0A57C1C49DD75005AFC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0A5851C49DD75005AFC5E /* Time_StampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F0A5871C49DD75005AFC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0A5901C49DD75005AFC5E /* Time_StampUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F0A59F1C49DD75005AFC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0A5AF1C49DD75005AFC5E /* NotificationController.swift in Sources */,
+				C1F0A5AD1C49DD75005AFC5E /* ExtensionDelegate.swift in Sources */,
+				C1F0A5B31C49DD75005AFC5E /* ComplicationController.swift in Sources */,
+				C1F0A5AB1C49DD75005AFC5E /* InterfaceController.swift in Sources */,
+				C1F0A5B11C49DD75005AFC5E /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1F0A5821C49DD75005AFC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1F0A56B1C49DD74005AFC5E /* Time Stamp */;
+			targetProxy = C1F0A5811C49DD75005AFC5E /* PBXContainerItemProxy */;
+		};
+		C1F0A58D1C49DD75005AFC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1F0A56B1C49DD74005AFC5E /* Time Stamp */;
+			targetProxy = C1F0A58C1C49DD75005AFC5E /* PBXContainerItemProxy */;
+		};
+		C1F0A5971C49DD75005AFC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1F0A5931C49DD75005AFC5E /* Time Stamp WatchKit App */;
+			targetProxy = C1F0A5961C49DD75005AFC5E /* PBXContainerItemProxy */;
+		};
+		C1F0A5A61C49DD75005AFC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1F0A5A21C49DD75005AFC5E /* Time Stamp WatchKit Extension */;
+			targetProxy = C1F0A5A51C49DD75005AFC5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1F0A5731C49DD75005AFC5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F0A5741C49DD75005AFC5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1F0A5781C49DD75005AFC5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F0A5791C49DD75005AFC5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C1F0A5991C49DD75005AFC5E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F0A59A1C49DD75005AFC5E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1F0A5B71C49DD75005AFC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1F0A5B81C49DD75005AFC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1F0A5BA1C49DD75005AFC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Time Stamp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farns.brian.Time-Stamp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		C1F0A5BB1C49DD75005AFC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Time Stamp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farns.brian.Time-Stamp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		C1F0A5BE1C49DD75005AFC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Time_Stamp_WatchKit_Extension;
+				INFOPLIST_FILE = "Time Stamp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farns.brian.Time-Stamp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		C1F0A5BF1C49DD75005AFC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Time_Stamp_WatchKit_Extension;
+				INFOPLIST_FILE = "Time Stamp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farns.brian.Time-Stamp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		C1F0A5C21C49DD75005AFC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Time Stamp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farns.brian.Time-Stamp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1F0A5C31C49DD75005AFC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Time Stamp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farns.brian.Time-Stamp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1F0A5C51C49DD75005AFC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Time StampTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farns.brian.Time-StampTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Stamp.app/Time Stamp";
+			};
+			name = Debug;
+		};
+		C1F0A5C61C49DD75005AFC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Time StampTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farns.brian.Time-StampTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Stamp.app/Time Stamp";
+			};
+			name = Release;
+		};
+		C1F0A5C81C49DD75005AFC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Time StampUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farns.brian.Time-StampUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Time Stamp";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C1F0A5C91C49DD75005AFC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Time StampUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.farns.brian.Time-StampUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Time Stamp";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1F0A5671C49DD74005AFC5E /* Build configuration list for PBXProject "Time Stamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F0A5B71C49DD75005AFC5E /* Debug */,
+				C1F0A5B81C49DD75005AFC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F0A5B91C49DD75005AFC5E /* Build configuration list for PBXNativeTarget "Time Stamp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F0A5BA1C49DD75005AFC5E /* Debug */,
+				C1F0A5BB1C49DD75005AFC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1F0A5BD1C49DD75005AFC5E /* Build configuration list for PBXNativeTarget "Time Stamp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F0A5BE1C49DD75005AFC5E /* Debug */,
+				C1F0A5BF1C49DD75005AFC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1F0A5C11C49DD75005AFC5E /* Build configuration list for PBXNativeTarget "Time Stamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F0A5C21C49DD75005AFC5E /* Debug */,
+				C1F0A5C31C49DD75005AFC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1F0A5C41C49DD75005AFC5E /* Build configuration list for PBXNativeTarget "Time StampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F0A5C51C49DD75005AFC5E /* Debug */,
+				C1F0A5C61C49DD75005AFC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1F0A5C71C49DD75005AFC5E /* Build configuration list for PBXNativeTarget "Time StampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F0A5C81C49DD75005AFC5E /* Debug */,
+				C1F0A5C91C49DD75005AFC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1F0A5641C49DD74005AFC5E /* Project object */;
+}
