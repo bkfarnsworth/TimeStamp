@@ -9,6 +9,11 @@
 import ClockKit
 
 
+//Best tutorial for this:
+//http://code.tutsplus.com/tutorials/an-introduction-to-clockkit--cms-24247
+
+
+
 class ComplicationController: NSObject, CLKComplicationDataSource {
     
     // MARK: - Timeline Configuration
@@ -18,11 +23,11 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
     }
     
     func getTimelineStartDateForComplication(complication: CLKComplication, withHandler handler: (NSDate?) -> Void) {
-        handler(nil)
+        handler(NSDate())
     }
     
     func getTimelineEndDateForComplication(complication: CLKComplication, withHandler handler: (NSDate?) -> Void) {
-        handler(nil)
+        handler(NSDate())
     }
     
     func getPrivacyBehaviorForComplication(complication: CLKComplication, withHandler handler: (CLKComplicationPrivacyBehavior) -> Void) {
@@ -57,7 +62,11 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
     
     func getPlaceholderTemplateForComplication(complication: CLKComplication, withHandler handler: (CLKComplicationTemplate?) -> Void) {
         // This method will be called once per supported complication, and the results will be cached
-        handler(nil)
+        
+        let template = CLKComplicationTemplateModularSmallSimpleText();
+        template.textProvider = CLKSimpleTextProvider(text: "hello", shortText: "h");
+        
+        handler(template);
     }
     
 }
